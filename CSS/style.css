@@ -1,0 +1,38 @@
+/* Step 4: Code the CSS Style for "My UX Skills" Section Using CSS Flex */
+/* <!-- My UX Skills section coded using CSS flex --> */
+.myWork {
+    text-align: center;
+    padding: 50px;
+}
+
+.mySkills {
+    text-align: center;
+    padding: 20px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexChild {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f1f8ef;
+}
+
+.flexChild img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flexChild h3 {
+    margin-top: 10px;
+}
+
+.flexChild p {
+    margin-top: 10px;
+}
